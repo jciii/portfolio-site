@@ -1,0 +1,103 @@
+
+
+body {
+background-color: #FD6B1F;
+color: #053D94;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 22px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px 10px;
+  background-color:#76418F;
+  
+}
+.content{
+  flex: 1;
+}
+.name{
+font-size: 60px;
+color:#FD6B1F;
+margin-left: -20px;
+margin-top: -10px;
+
+
+}
+.links{
+display: flex ;
+flex-direction: row;
+margin-top: 19px;
+
+}
+a:link,a:visited{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration:none;
+  font-style: italic;
+}
+.link {
+
+justify-content: space-evenly;
+border-spacing: 3px;
+margin: 0 20px;
+}
+
+img.photo{
+max-width: 25%;
+padding-left: 145px;
+align-items: center;
+}
+
+img{
+  max-width: 5%;
+vertical-align: middle;
+}
+
+contents{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+min-height: 375px;
+}
+.about.me{
+display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 49%;
+  text-align: right;
+}
+
+.divider{
+text-align: center;
+background-color:#76418F;
+color:#FD6B1F;
+font-size: 35px;
+width: auto;
+height: auto;
+font-weight:20
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+ul{
+  text-align: center;
+  margin: 0%;
+  list-style-position: inside;
+}
+button{
+  background-color: #76418F;
+  color:#FD6B1F;
+  margin: auto;
+  border-style: inset;
+  padding:5px, 5px;
+vertical-align: middle;
+}
+projects{
+  align-content: center;
+}
+
+
+
